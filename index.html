@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Portfolio | Where feelings bloom into words</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Meta Tags for SEO -->
+    <meta name="description"
+        content="A portfolio of an author weaving emotions into words. Explore poetry, stories, and reflections.">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fadeIn">
+        <div class="nav-container">
+            <a href="#hero" class="logo">
+                <img src="logo.jpg" alt="Tulipwind Hana Logo" class="nav-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Books</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="hero" class="section hero-section fadeIn">
+        <div class="hero-content">
+            <h1 class="hero-title">Author Name</h1>
+            <p class="hero-tagline">“Where feelings bloom into words.”</p>
+            <a href="#portfolio" class="cta-button">Read My Work</a>
+        </div>
+        <!-- Decorative Minimal Tulip Line Art could go here -->
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section hidden">
+        <div class="container about-container">
+            <div class="about-image-wrapper">
+                <div class="about-portrait">
+                    <!-- Placeholder for Author Portrait -->
+                </div>
+            </div>
+            <div class="about-text">
+                <h2 class="section-title">About the Author</h2>
+                <div class="tulip-divider">✿</div>
+                <p class="emotional-bio">
+                    I write to uncover the quiet moments that connect us all. Through stories and poetry, I explore the
+                    depths of human emotion, finding beauty in vulnerability and strength in the gentle act of healing.
+                    Welcome to my garden of words.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio / Books Section -->
+    <section id="portfolio" class="section portfolio-section hidden">
+        <div class="container">
+            <h2 class="section-title centered">Collections & Stories</h2>
+            <div class="tulip-divider centered">✿</div>
+
+            <div class="book-grid">
+                <!-- Book 1 -->
+                <div class="book-card">
+                    <div class="book-cover placeholder-cover-1"></div>
+                    <div class="book-info">
+                        <h3 class="book-title">Whispers of the Dawn</h3>
+                        <p class="book-desc">A collection of early morning poetry.</p>
+                        <button class="text-button">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Book 2 -->
+                <div class="book-card coming-soon">
+                    <div class="book-cover placeholder-cover-2 blurred">
+                        <div class="coming-soon-overlay">
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="book-info blurred-text">
+                        <h3 class="book-title">The Healing Garden</h3>
+                        <p class="book-desc">Essays on growth and finding peace.</p>
+                        <button class="text-button" disabled>View Details</button>
+                    </div>
+                </div>
+
+                <!-- Book 3 -->
+                <div class="book-card coming-soon">
+                    <div class="book-cover placeholder-cover-3 blurred">
+                        <div class="coming-soon-overlay">
+                            <span>Coming Soon</span>
+                        </div>
+                    </div>
+                    <div class="book-info blurred-text">
+                        <h3 class="book-title">Petals in the Wind</h3>
+                        <p class="book-desc">Short stories of love and letting go.</p>
+                        <button class="text-button" disabled>View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Quote Section -->
+    <section class="section quote-section hidden">
+        <div class="container quote-container">
+            <blockquote class="featured-quote">
+                "Just like a tulip reaching for the morning sun, our hearts too lean toward the light of hope."
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section hidden">
+        <div class="container contact-container">
+            <h2 class="section-title centered">Let's Connect</h2>
+            <div class="tulip-divider centered">✿</div>
+            <p class="contact-text">I would love to hear from you. Send me a message and let's bloom together.</p>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button form-button">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="#" aria-label="Instagram">Instagram</a>
+                <a href="#" aria-label="Twitter">Twitter</a>
+                <a href="#" aria-label="Goodreads">Goodreads</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 Author Name. All rights reserved.</p>
+            <div class="footer-tulip">🌷</div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
